@@ -8,6 +8,7 @@ import { Footer } from './footer/footer';
   imports: [RouterOutlet, NavBar, Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss',
+  standalone: true,
 })
 export class App {
   protected readonly title = signal('portfolio');
